@@ -46,7 +46,7 @@ const getSchedules = async () => {
     
     try {
         const response = await axios.request(options);
-        console.log("e",response.data)
+        // console.log("e",response.data)
       //   console.log(response.data.matchScheduleMap[0].scheduleAdWrapper.matchScheduleList[0].seriesName);
         const responseData = response?.data?.matchScheduleMap;
         const filteredOption = responseData.filter(
