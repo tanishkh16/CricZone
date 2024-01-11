@@ -38,9 +38,9 @@ export default function Rankings() {
             console.error(error);
         }
     }
-    // useEffect(()=>{
-    //     handleClick();
-    // },[])
+    useEffect(()=>{
+        handleClick();
+    },[])
 
     const odi=async()=>{
         setFormat('ODI')

@@ -80,9 +80,9 @@ const formattedISTTime = istTime.toLocaleTimeString('en-US', { hour12: false, ti
 return formattedISTTime;
 };
 
-// useEffect(() => {
-//   getSchedules();
-// },[option])
+useEffect(() => {
+  getSchedules();
+},[option])
    
     
   return (

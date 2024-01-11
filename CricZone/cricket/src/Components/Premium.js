@@ -9,7 +9,7 @@ export default function Premium() {
               
             </div>
             <div>
-              This contain premium content in it.
+              Welcome Subscriber. This is the premium content for you all.
             </div>
     </div>
   )

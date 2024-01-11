@@ -78,9 +78,9 @@ const convertToIST = (timestamp) => {
   };
   
     
-    // useEffect(() => {
-    //     getSchedules();
-    // },[option])
+    useEffect(() => {
+        getSchedules();
+    },[option])
 
 
     

@@ -62,9 +62,9 @@ export default function Women() {
     return formattedISTTime;
     };
     
-    // useEffect(() => {
-    //     getSchedules();
-    // },[])
+    useEffect(() => {
+        getSchedules();
+    },[])
   return (
     <div className='pt-2 pb-8 'style={backgroundStyle}>
       <div className='flex justify-center mt-2'>

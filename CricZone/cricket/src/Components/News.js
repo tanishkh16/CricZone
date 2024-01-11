@@ -35,9 +35,9 @@ export default function News() {
         }
     }
 
-    // useEffect(() => {
-    //     handleClick();
-    // }, [])
+    useEffect(() => {
+        handleClick();
+    }, [])
     const backgroundStyle = {
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: 'contain', // You can adjust these properties based on your image and design
